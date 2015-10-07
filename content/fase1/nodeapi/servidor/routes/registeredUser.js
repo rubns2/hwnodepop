@@ -17,7 +17,7 @@ router.use( function(req, res, next){
     var user = basicAuth(req);
 
     //comprobamos si existe el usuario
-    if (!user || user.name !== 'ja' || user.pass !== 'ja'){
+    if (!user || user.name !== 'registrado' || user.pass !== 'registrado'){
         //si no existe, devolver el error
 
 
@@ -44,7 +44,7 @@ router.use( function(req, res, next){
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.send('Zona de administracion');
+    res.send('Zona dee administracion');
 });
 
 

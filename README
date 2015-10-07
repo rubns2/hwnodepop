@@ -1,0 +1,27 @@
+Hola,
+
+No tengo intenciones de incluir este trabajo como la version de la practica, ya que esa fecha paso.  No use git apropiadamente con mi trabajo, y la version de la practica me empezó a dar errores y todavía no los he resuelto todos.
+Anadi este mensaje aqui, porque no sabia si lo iba a ver en su correo. Envío esto, simplemente para hacer esta preguntas y mostrar la pag de inicio que menciono en las preguntas. Lo demás es parte de los ejemplos que se hicieron en el curso.
+
+Para hacer la practica me dedique primero a entender como fue manipulado Agente  en los ejemplos que usted dio, y aplicar la mismo lógica con anuncios usuarios y pushtokens.
+
+Pero  después empece a tener complicaciones relacionadas con al lógica de la app.
+Primero pensé que la interacción iba a ser utilizando el mouse en la web. Pero después me acorde que para hacer posts usamos postman, y después  veíamos la descripción de cada elemento en robomongo, y que también podíamos filtrar las búsquedas por el terminal o verlas las listas completas.
+
+de la misma forma que se manipulo Agente, al momento de ver listas o hacer los posts, era lo que se esperaba que hiciéramos con anuncios usuarios y pushtokens?
+o si había que reflejar detalladamente cada cambio hecho, información filtrada, o anadida en una url con css, (como por ejemplo localhost:3000 , usando $npm run dev   desde servidor). Si es así, si tendría que varios cambios, tendría que ver como paso la info de cada código a la vista…
+
+las vistas se ivan a acceder anadiendo directamente las url? por ejemplo
+http://localhost:3000/servidor, http://localhost:3000/admin
+
+para los usuarios registrados pensaba usar el ejemplo de admin con JWT, y usar esa url para poder hacer posts desde postman,
+
+En la sección de registro de las notas que usted dio para empezar, hay que hacer una url donde se pueda escribir directamente los datos? o, son simulados y enviados con postman.
+
+Ahora como estamos viendo la seccion de Despliegue de aplicaciones en servidor,  se que necesito el contendido esta practica; hasta ahora no se que tanto necesito. Por que lo que pienso es tener una version que funcione y que me sirva para trabajar con la nueva sesión del curso.
+
+Y ultima pregunta, podemos consultados a a ustedes después que hayan terminado de explicar sus respectivas secciones?
+
+mi email es rubns2@hotmail.com
+
+gracias por su tiempo
