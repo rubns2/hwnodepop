@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- formas de hacer comentarios-->
+<!-- tambien /**/  -->
+
+<html lang=“es”>
+
+<head>
+    <meta charset=“iso-8559-1”/>
+    <meta name=“description” content=“pagina de anuncios de Nodepop ”/>
+    <meta name =“keywords” content=“html5, Nodepop, anuncios Nodepop”/>
+
+    <title>
+        Pagina de Nodepop en HTML5
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/mihojadeestilos.css">.
+
+    <style>
+        #barralateral1{
+            background-color:lightyellow;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header id="cabeceraweb">
+
+    <h1> Nodepop</h1>
+
+</header>
+
+<nav id="navprincipal">
+    <ul>
+        <li style="background-color:darkseagreen;">Quienes somos</li>
+        <li style="background-color:darkseagreen;">Contactanos</li>
+        <li style="background-color:darkseagreen;">Iniciar secion</li>
+        <li style="background-color:darkseagreen;">translate</li>
+        <li>contactanos(nav)</li>
+
+
+</nav>
+
+<aside id="barralateral1">
+    <blockquote>--Tipos de Anuncios--</blockquote>
+
+    <% listaCategorias.forEach(function(elem) { %>
+    <blockquote><%= elem %></blockquote>
+    <% }) %>
+
+    <blockquote>........................................</blockquote>
+
+
+    <blockquote>--Categorias--</blockquote>
+    <% listaTags.forEach(function(elem) { %>
+    <blockquote><%= elem %></blockquote>
+    <% }) %>
+
+    <blockquote>........................................</blockquote>
+
+
+
+
+
+</aside>
+
+<section id="contenidoprincipal">
+
+    <article>
+
+        <header>
+
+            <hgroup>
+                <h2>Articulos en venta</h2>
+                <h3>Vendo llave!</h3>
+            </hgroup>
+
+
+        </header>
+
+        <figure>
+
+            <img src="images/llave.png"/>
+
+            <figcaption>
+                llave nueva
+
+            </figcaption>
+
+        </figure>
+        <p><ul>
+            <li style="background-color:yellow;">life style</li>
+            <li style="background-color:yellow;">Work</li>
+        <p>Con esta llave podras tener acceso a cualquier cerradura </p>
+        <p>tlf <strong>6094069054</strong> </p>
+
+        <footer>
+            <li style="background-color:darkseagreen;">Comentarios</li>
+
+            <p> Julio: Muy buena la llave</p>
+        </footer>
+
+
+
+
+
+    </article>
+
+
+    <article>
+
+        <header>
+
+            <hgroup>
+                <h2>Articulos en venta</h2>
+                <h3>Perfecciona tu desalluno</h3>
+            </hgroup>
+
+
+        </header>
+        <figure>
+
+            <img src="images/avena.png"/>
+
+            <figcaption>
+                La avena
+
+            </figcaption>
+
+        </figure>
+        <p><ul>
+            <li style="background-color:yellow;">life style</li>
+            <p>Desalluno perfecto con <em>Quaker</em></p>
+            <p>tlf <strong>5434068989</strong> </p>
+
+            <footer>
+                <li style="background-color:darkseagreen;">Comentarios</li>
+
+                <p> Hugh: Muy buena esa avena</p>
+            </footer>
+    </article>
+
+
+
+
+
+</section>
+
+<footer id="pieprincipal">
+
+    <small>Derechos reservados</small> <address>tfno:6780123546</address>
+    <small>        <li>contactanos(nav)</li>
+    </small>
+
+
+</footer>
+
+
+</body>
+</html>

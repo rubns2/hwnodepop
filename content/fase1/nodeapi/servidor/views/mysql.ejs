@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+        Lista de agentes:
+
+        <%      rows.forEach(function(row) {     %>
+
+        <p>     <%=  row.idagentes  %>, <%=  row.name  %>, <%=  row.age  %>    </p>
+        <%  });  %>
+
+
+
+        Lista de anuncios:
+
+        <%      rows.forEach(function(row) {     %>
+
+
+        <p>     <%=  row.idanuncios  %>, <%=  row.nombre  %>, <%=  row.venta  %>, <%=  row.precio  %>, <%=  row.foto  %>, <%=  row.tags  %>   </p>
+        <%  });  %>
+
+        Lista de usuarios:
+
+        <%      rows.forEach(function(row) {     %>
+
+        <p>     <%=  row.idusuarios  %>, <%=  row.nombre  %>, <%=  row.email  %>, <%=  row.clave  %>   </p>
+        <%  });  %>
+
+
+        Lista de pushtokens:
+
+        <%      rows.forEach(function(row) {     %>
+
+        <p>     <%=  row.idpushtokens  %>, <%=  row.nombre  %>, <%=  row.plataforma  %>, <%=  row.token  %>, <%=  row.usuario  %>   </p>
+        <%  });  %>
+
+
+
+</body>
+</html>

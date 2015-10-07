@@ -1,0 +1,41 @@
+#cabeceraweb{
+    background-color: #a3f8ff;
+}
+/*nav{
+	background-color:yellow;
+}*/
+#navprincipal{
+    background-color: rgba(252, 255, 200, 0.6);
+}
+
+
+li{
+    background-color: #defffd;
+
+    display:inline;
+    margin-left: 15px;
+
+}
+
+#barralateral1{					/*float es un elemento que puede invadir espacios de otros bloques, y por ende se usa clear y margin en el pieprincipal para solucionar overlapping, pero a mi el float se comporto diferente, el float no hacia overlap movia directamente el bloque pie hacia un lado...*/
+    background-color:#0f0;
+    float:left;
+    height: 1295px;
+}
+
+#contenidoprincipal{
+    background-color: #defffd;
+    margin-left: 250px;
+    padding-left: 15px;
+    height: 1292px;
+
+
+
+}
+
+#pieprincipal{
+    background-color: #ffc1b8;
+    clear:both;
+    margin-top: 10px;
+
+}
